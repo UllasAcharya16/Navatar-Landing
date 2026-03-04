@@ -19,9 +19,9 @@ export function Navbar() {
   }, [])
 
   const navLinks = [
-    { href: "#features", label: "Features" },
-    { href: "#how-it-works", label: "How It Works" },
-    { href: "#use-cases", label: "Use Cases" },
+    { href: "/#features", label: "Features" },
+    { href: "/#how-it-works", label: "How It Works" },
+    { href: "/#use-cases", label: "Use Cases" },
   ]
 
   return (
